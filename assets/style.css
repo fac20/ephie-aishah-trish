@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* border: solid red 3px; */
+  flex-direction: column;
+  background: #fffdf4;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  flex-direction: column;
+  color: #b76139;
+  /* border: solid red 3px; */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  margin-top: 30px;
+  top: 0px;
+  justify-content: space-around;
+}
+nav,
+li,
+a {
+  text-decoration: none;
+  color: #7b9c7d;
+}
+
+img {
+  width: 10vw;
+  border-radius: 10px;
+  margin: 2rem;
+  border: dashed 3px #7b9c7d;
+}
+
+li {
+  list-style: none;
+}
+ul {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cards {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e1e8c1;
+  /* background: #c0e1e8; */
+  border: dashed 3px #c1e1e8;
+  margin: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
